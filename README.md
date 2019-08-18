@@ -9,8 +9,8 @@ My frist website
 
 ## 使用技術
 工具名稱|用途
----|---
-Python3 | 不需要解釋
+--------|---------
+Python3 | 控制一切
 Flask(python)    | 建立伺服器
 HTML/CSS  | 網頁表示和排版
 Heroku   | 託管網頁
