@@ -29,7 +29,3 @@ def home():
   return render_template("index.html", cat=fill)
 
 app.run(debug=True, host="0.0.0.0", port="3000")
-
-@app.route("/cgost")
-def cgost():
-  return render_template("cgost.html")
