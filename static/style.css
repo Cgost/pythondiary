@@ -1,0 +1,16 @@
+.navbar-default{
+  background-color:azure;
+}
+
+.navbar-default .navbar-nav>.active>a{
+  color:azure;
+  background-color:black;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+  color:grey;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover, .container-fluid>.navbar-header:hover, .navbar-default .navbar-brand:hover{
+  background-color:aquamarine;
+}
