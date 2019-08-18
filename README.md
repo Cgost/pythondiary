@@ -17,7 +17,7 @@ Heroku   | 託管網頁
 Github   | 存放原始碼
 
 ## 片段程式碼
-ˋˋˋpython
+```python
 @app.route("/")
 def home():
   temp = glob.glob("articles/*")
@@ -27,4 +27,4 @@ def home():
     length = len(glob.glob(t + "/*.txt"))
     fill.append((category, length))
   return render_template("index.html", cat=fill)
-  ˋˋˋ
+```
